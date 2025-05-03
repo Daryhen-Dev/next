@@ -1,0 +1,15 @@
+import React from 'react'
+
+
+export const Navbar = async() =>{
+  return (
+   <nav className='flex bg-blue-800 opacity-30 p-2 m-2 rounded'>
+        <span>Home</span>
+        <div className='flex flex-1'></div>
+        <a className='mr-2' href="/about">about</a>
+        <a className='mr-2' href="/pricing">pricing</a>
+        <a className='mr-2' href="/contact">contact</a>
+   </nav>
+  )
+}
+
