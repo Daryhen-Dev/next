@@ -15,7 +15,7 @@ export const SidebanMenuItem = ({path, icon, title, supTitle}: Props) => {
     const currentPath = usePathname();
   return (
     <Link
-    href="#"
+    href={path}
     className={`w-full px-2 inline-flex space-x-2 items-center border-b border-slate-700 py-3 hover:bg-white/5 transition ease-linear duration-150 ${currentPath === path ? 'bg-blue-800' : ''}`}
   >
     <div>
